@@ -1,0 +1,222 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Serif";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.top-wrapper {
+  padding: 100px 0 100px 0;
+  background-image: url(https://catchmeup.id/wp-content/uploads/2020/03/Website-background-01.png?id=8286);
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-wrapper h2 {
+  opacity: 0.5;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.top-wrapper h3 {
+  opacity: 0.5;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.fa {
+  margin-right: 5px;
+}
+.contact-form {
+  padding-top: 100px;
+}
+input, textarea {
+width:400px;
+margin-top:10px;
+margin-bottom:30px;
+padding:20px;
+font-size:18px;
+border:1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 500px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(216, 191, 216, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+
+}
+
+.logo {
+  width: 200px;
+  margin-top: 10px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+}
+.container {
+width: 1170px;
+margin: 0 auto;
+}
+.lesson-wrapper {
+      height: 500px;
+      padding-bottom: 80px;
+      background-color: #f7f7f7;
+      text-align: center;
+    }
+.contents {
+
+        height : 500px;
+    }
+    .content-container{
+      float:left;
+    }
+    .contents-item{
+      height: 100px;
+      width: 100px;
+
+
+    }
+
+footer {
+  background-color: #D8BFD8;
+  color: #000;
+  height: 40px;
+  padding: 40px;
+}
+footer-logo {
+    font-size: 50px;
+    float: left;
+  }
